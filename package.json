@@ -4,8 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/ksstormnet/accsys.git",
   "author": "Scott Roberts <143973723+ksstormnet@users.noreply.github.com>",
+  "private": true,
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
 }
